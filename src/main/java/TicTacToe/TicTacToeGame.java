@@ -1,7 +1,9 @@
-package TicTacToe.winningStrategy;
+package TicTacToe;
 
-import TicTacToe.Board;
-import TicTacToe.Player;
+import TicTacToe.winningStrategy.ColumnWinningStrategy;
+import TicTacToe.winningStrategy.DiagonalWinningStrategy;
+import TicTacToe.winningStrategy.RowWinningStrategy;
+import TicTacToe.winningStrategy.WinningStrategy;
 
 import java.util.Arrays;
 import java.util.List;
@@ -75,5 +77,3 @@ import java.util.List;
             board.print();
         }
     }
-
-}

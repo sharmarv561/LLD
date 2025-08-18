@@ -29,4 +29,4 @@ public class DiagonalWinningStrategy implements WinningStrategy {
         return antiDiagonalWin;
     }
 }
-}
+

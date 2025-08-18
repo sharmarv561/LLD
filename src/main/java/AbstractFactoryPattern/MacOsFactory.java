@@ -1,4 +1,13 @@
 package AbstractFactoryPattern;
 
-public class CheckBoxFactory {
+public class MacOsFactory implements GUIFactory{
+    @Override
+    public Button createButton() {
+        return new MacOSButton();
+    }
+
+    @Override
+    public CheckBox createCheckBox() {
+        return new MacOsCheckBox();
+    }
 }
